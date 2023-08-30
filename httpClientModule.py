@@ -1,5 +1,7 @@
 from http.client import http
 
+#? GET 메소드 요청예제
+
 #* 1. 연결 객체 생성
 conn = http.client.HTTPConnection("www.python.org") 
 
