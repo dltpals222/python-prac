@@ -9,3 +9,5 @@ conn.request("GET", "/index.html")
 #* 3. 응답 객체 생성
 response = conn.getresponse()
 
+#* 4. 응답 데이터를 읽음
+date = response.read()
