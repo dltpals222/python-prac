@@ -11,3 +11,6 @@ response = conn.getresponse()
 
 #* 4. 응답 데이터를 읽음
 date = response.read()
+
+#* 5. 연결을 닫음
+conn.close()
