@@ -6,3 +6,6 @@ conn = http.client.HTTPConnection("www.python.org")
 #* 2. 요청 보내기
 conn.request("GET", "/index.html")
 
+#* 3. 응답 객체 생성
+response = conn.getresponse()
+
